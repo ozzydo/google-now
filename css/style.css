@@ -82,6 +82,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   line-height: 34px;
   height: 34px !important;
   display: block;
+  
 }
 
 .input {
@@ -104,31 +105,59 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-indent: 0px;
   text-shadow: none;
   text-align: start;
-  appearance: textfield;
+  appearance: auto;
   cursor: text;
+  width: 490px;
 }
 
 .buttons {
     text-align: center;
 }
 
+/* .buttons:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+} */
+.buttons:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px black;
+}
+
 .googlesearch {
-  margin: 11px 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+  height: 36px;
+  margin: 30px 7px;
   padding: 0 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border-style: none;
+
 }
 
 .feelinglucky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
   padding: 0 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border-style: none;
 }
 
 .footer {
