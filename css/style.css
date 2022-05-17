@@ -23,6 +23,24 @@
   color: rgb(125, 125, 125);
 }
 
+.headerli-sol a {
+    margin-top: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    color: #000;
+    opacity: 0.75;
+  }
+  
+  .headerli-sol a:hover {
+    text-decoration: underline;
+  }
+
 .icon:hover {
     fill: #ba3655;
   }
@@ -94,7 +112,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .input {
-    border-style: dashed;
+  border-style: none;
   margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.87);
@@ -130,10 +148,10 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
     text-align: center;
 }
 
-/* .buttons:hover {
-    background-color:#002ead;
-    transition: 0.7s;
-} */
+.buttons:hover {
+   /* border-style: solid; */
+}
+
 .buttons:focus {
     outline-color: transparent;
     outline-style:solid;
@@ -159,6 +177,23 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 }
 
+.googlesearch:hover {
+    background-color: #f2f2f2;
+    border: 1px solid #b4b3b3;
+    border-radius: 4px;
+    color: #000000;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+  height: 36px;
+  margin: 30px 7px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
 .feelinglucky {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -173,7 +208,22 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
-  border-style: none;
+}
+
+.feelinglucky:hover {
+    background-color: #f2f2f2;
+    border: 1px solid #b4b3b3;
+    border-radius: 4px;
+    color: #000000;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 .footer {
